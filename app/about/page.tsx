@@ -209,7 +209,7 @@ export default function AboutPage() {
             <div className="text-center mb-12">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Holidays (No Service Days)</h2>
               <p className="text-xl text-gray-600">
-                We are closed on the following days to ensure our team gets proper rest
+                We are closed on the following days
               </p>
             </div>
 
