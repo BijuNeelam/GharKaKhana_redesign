@@ -1,11 +1,11 @@
 "use client"
 
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { PaymentStatusComponent } from '@/components/payment/payment-status';
 import { PaymentResponse } from '@/lib/types/payment';
 
-export default function PaymentSuccessPage() {
+function PaymentSuccessContent() {
   const searchParams = useSearchParams();
   const [paymentResponse, setPaymentResponse] = useState<PaymentResponse | null>(null);
   const [isLoading, setIsLoading] = useState(true);
@@ -68,5 +68,20 @@ export default function PaymentSuccessPage() {
       onRetry={() => window.location.href = '/checkout'}
       onGoHome={() => window.location.href = '/'}
     />
+  );
+}
+
+export default function PaymentSuccessPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-orange-600 mx-auto mb-4"></div>
+          <p className="text-gray-600">Loading...</p>
+        </div>
+      </div>
+    }>
+      <PaymentSuccessContent />
+    </Suspense>
   );
 }
