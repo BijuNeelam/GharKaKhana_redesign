@@ -40,6 +40,9 @@ export default function HomePage() {
               <Link href="/menu" className="text-gray-700 hover:text-orange-600 font-medium transition-colors">
                 Menu
               </Link>
+              <Link href="/order" className="text-gray-700 hover:text-orange-600 font-medium transition-colors">
+                Order Now
+              </Link>
               <Link href="/before-ordering" className="text-gray-700 hover:text-orange-600 font-medium transition-colors">
                 Before Ordering
               </Link>
@@ -81,6 +84,13 @@ export default function HomePage() {
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Menu
+                </Link>
+                <Link 
+                  href="/order" 
+                  className="block py-3 px-4 text-gray-700 hover:text-orange-600 hover:bg-orange-50 rounded-lg transition-colors"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  Order Now
                 </Link>
                 <Link 
                   href="/before-ordering" 
@@ -265,14 +275,6 @@ export default function HomePage() {
                     <CheckCircle className="h-4 w-4 text-green-600" />
                     <span>Basmathi Rice – We use only Basmathi rice in meals.</span>
                   </li>
-                  <li className="flex items-center space-x-2">
-                    <CheckCircle className="h-4 w-4 text-green-600" />
-                    <span>Oil – We cook using high-quality oil (e.g., Saffola).</span>
-                  </li>
-                  <li className="flex items-center space-x-2">
-                    <CheckCircle className="h-4 w-4 text-green-600" />
-                    <span>Masala - No packaged masalas; we use fresh spices.</span>
-                  </li>
 
                 </ul>
               </CardContent>
@@ -389,7 +391,7 @@ export default function HomePage() {
                 </div>
                 <div className="flex items-center space-x-3">
                   <MapPin className="h-5 w-5 text-orange-400" />
-                  <span>Shop 2, Plot Y5, Sector 19, Shahbaaz Gaon, CBD Belapur, Navi Mumbai 400614</span>
+                  <span>Shop No. 1, Fanaspada Village, Sector 19, CBD Belapur, Navi Mumbai 400614</span>
                 </div>
               </div>
             </div>

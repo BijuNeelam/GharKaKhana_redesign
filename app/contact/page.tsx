@@ -33,6 +33,9 @@ export default function ContactPage() {
               <Link href="/menu" className="text-gray-700 hover:text-orange-600 font-medium transition-colors">
                 Menu
               </Link>
+              <Link href="/order" className="text-gray-700 hover:text-orange-600 font-medium transition-colors">
+                Order Now
+              </Link>
               <Link href="/before-ordering" className="text-gray-700 hover:text-orange-600 font-medium transition-colors">
                 Before Ordering
               </Link>
@@ -71,8 +74,16 @@ export default function ContactPage() {
                 <Link 
                   href="/menu" 
                   className="block py-3 px-4 text-gray-700 hover:text-orange-600 hover:bg-orange-50 rounded-lg transition-colors"
+                  onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Menu
+                </Link>
+                <Link 
+                  href="/order" 
+                  className="block py-3 px-4 text-gray-700 hover:text-orange-600 hover:bg-orange-50 rounded-lg transition-colors"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  Order Now
                 </Link>
                 <Link 
                   href="/before-ordering" 
@@ -140,7 +151,7 @@ export default function ContactPage() {
                     <div>
                       <h3 className="font-semibold text-gray-900 mb-1">Address</h3>
                       <p className="text-gray-600">
-                        Shop 2, Plot Y5, Sector 19, Shahbaaz Gaon, CBD Belapur, Navi Mumbai 400614
+                        Shop No. 1, Fanaspada Village, Sector 19, CBD Belapur, Navi Mumbai 400614
                       </p>
                     </div>
                   </div>
@@ -317,7 +328,7 @@ export default function ContactPage() {
                 </div>
                 <div className="flex items-center space-x-3">
                   <MapPin className="h-5 w-5 text-orange-400" />
-                  <span>Shop 2, Plot Y5, Sector 19, Shahbaaz Gaon, CBD Belapur, Navi Mumbai 400614</span>
+                  <span>Shop No. 1, Fanaspada Village, Sector 19, CBD Belapur, Navi Mumbai 400614</span>
                 </div>
               </div>
             </div>

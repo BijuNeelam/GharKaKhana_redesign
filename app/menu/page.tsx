@@ -32,6 +32,9 @@ export default function MenuPage() {
               <Link href="/menu" className="text-orange-600 font-semibold border-b-2 border-orange-600 pb-1">
                 Menu
               </Link>
+              <Link href="/order" className="text-gray-700 hover:text-orange-600 font-medium transition-colors">
+                Order Now
+              </Link>
               <Link href="/before-ordering" className="text-gray-700 hover:text-orange-600 font-medium transition-colors">
                 Before Ordering
               </Link>
@@ -73,6 +76,13 @@ export default function MenuPage() {
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Menu
+                </Link>
+                <Link 
+                  href="/order" 
+                  className="block py-3 px-4 text-gray-700 hover:text-orange-600 hover:bg-orange-50 rounded-lg transition-colors"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  Order Now
                 </Link>
                 <Link 
                   href="/before-ordering" 
@@ -178,7 +188,18 @@ export default function MenuPage() {
                       </div>
                     </div>
                   </div>
-
+                  <div className="flex gap-2">
+                    <Link href="/checkout?plan=veg-normal&duration=weekly" className="flex-1">
+                      <Button className="w-full bg-green-600 hover:bg-green-700 text-white text-sm py-2">
+                        Order Weekly
+                      </Button>
+                    </Link>
+                    <Link href="/checkout?plan=veg-normal&duration=monthly" className="flex-1">
+                      <Button variant="outline" className="w-full border-green-600 text-green-600 hover:bg-green-50 text-sm py-2">
+                        Order Monthly
+                      </Button>
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
@@ -238,7 +259,18 @@ export default function MenuPage() {
                       </div>
                     </div>
                   </div>
-
+                  <div className="flex gap-2">
+                    <Link href="/checkout?plan=veg-special&duration=weekly" className="flex-1">
+                      <Button className="w-full bg-green-600 hover:bg-green-700 text-white text-sm py-2">
+                        Order Weekly
+                      </Button>
+                    </Link>
+                    <Link href="/checkout?plan=veg-special&duration=monthly" className="flex-1">
+                      <Button variant="outline" className="w-full border-green-600 text-green-600 hover:bg-green-50 text-sm py-2">
+                        Order Monthly
+                      </Button>
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
@@ -296,6 +328,18 @@ export default function MenuPage() {
                         <span className="line-through text-gray-500">₹2223</span> ₹2165
                       </div>
                     </div>
+                  </div>
+                  <div className="flex gap-2">
+                    <Link href="/checkout?plan=combo-normal&duration=weekly" className="flex-1">
+                      <Button className="w-full bg-red-600 hover:bg-red-700 text-white text-sm py-2">
+                        Order Weekly
+                      </Button>
+                    </Link>
+                    <Link href="/checkout?plan=combo-normal&duration=monthly" className="flex-1">
+                      <Button variant="outline" className="w-full border-red-600 text-red-600 hover:bg-red-50 text-sm py-2">
+                        Order Monthly
+                      </Button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -359,6 +403,18 @@ export default function MenuPage() {
                       </div>
                     </div>
                   </div>
+                  <div className="flex gap-2">
+                    <Link href="/checkout?plan=combo-special&duration=weekly" className="flex-1">
+                      <Button className="w-full bg-red-600 hover:bg-red-700 text-white text-sm py-2">
+                        Order Weekly
+                      </Button>
+                    </Link>
+                    <Link href="/checkout?plan=combo-special&duration=monthly" className="flex-1">
+                      <Button variant="outline" className="w-full border-red-600 text-red-600 hover:bg-red-50 text-sm py-2">
+                        Order Monthly
+                      </Button>
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
@@ -401,6 +457,13 @@ export default function MenuPage() {
                       <div className="text-sm text-gray-600 mb-1">Price</div>
                       <div className="text-lg font-bold text-red-800">₹110</div>
                     </div>
+                  </div>
+                  <div className="mt-3">
+                    <Link href="/checkout?plan=non-veg-normal&duration=weekly">
+                      <Button className="w-full bg-red-600 hover:bg-red-700 text-white text-sm py-2">
+                        Order Now
+                      </Button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -448,6 +511,13 @@ export default function MenuPage() {
                       <div className="text-sm text-gray-600 mb-1">Price</div>
                       <div className="text-lg font-bold text-red-800">₹120</div>
                     </div>
+                  </div>
+                  <div className="mt-3">
+                    <Link href="/checkout?plan=non-veg-special&duration=weekly">
+                      <Button className="w-full bg-red-600 hover:bg-red-700 text-white text-sm py-2">
+                        Order Now
+                      </Button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -498,17 +568,26 @@ export default function MenuPage() {
         </div>
       </section>
 
-      {/* Want to Order Section */}
+            {/* Want to Order Section */}
       <section className="py-16 bg-orange-50">
         <div className="container mx-auto px-4">
           <div className="text-center">
-            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Want to Order?</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Ready to Order?</h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
-              Contact us to place your order and enjoy authentic home-style meals delivered fresh to your doorstep.
+              Choose your meal plan and place your order online with secure payment. Enjoy authentic home-style meals delivered fresh to your doorstep.
             </p>
-            <Button className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-lg">
-              📞 +91 8108 325 444
-            </Button>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link href="/checkout?plan=veg-special&duration=weekly">
+                <Button className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-lg">
+                  🛒 Order Online Now
+                </Button>
+              </Link>
+              <a href="tel:+918108325444">
+                <Button variant="outline" className="border-orange-600 text-orange-600 hover:bg-orange-50 px-8 py-4 rounded-full text-lg font-semibold">
+                  📞 +91 8108 325 444
+                </Button>
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -535,7 +614,7 @@ export default function MenuPage() {
                 </div>
                 <div className="flex items-center space-x-3">
                   <MapPin className="h-5 w-5 text-orange-400" />
-                  <span>Shop 2, Plot Y5, Sector 19, Shahbaaz Gaon, CBD Belapur, Navi Mumbai 400614</span>
+                  <span>Shop No. 1, Fanaspada Village, Sector 19, CBD Belapur, Navi Mumbai 400614</span>
                 </div>
               </div>
             </div>
