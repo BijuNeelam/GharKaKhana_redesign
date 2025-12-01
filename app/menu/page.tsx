@@ -318,14 +318,14 @@ export default function MenuPage() {
                   <div className="bg-red-50 p-4 rounded-xl">
                     <div className="text-center">
                       <div className="text-sm text-gray-600 mb-1">Weekly</div>
-                      <div className="text-lg font-bold text-red-700">₹505</div>
+                      <div className="text-lg font-bold text-red-700">₹546</div>
                     </div>
                   </div>
                   <div className="bg-gradient-to-r from-red-100 to-red-200 p-4 rounded-xl">
                     <div className="text-center">
                       <div className="text-sm text-gray-600 mb-1">Monthly</div>
                       <div className="text-lg font-bold text-red-800">
-                        <span className="line-through text-gray-500">₹2223</span> ₹2165
+                        <span className="line-through text-gray-500">₹2223</span> ₹2205
                       </div>
                     </div>
                   </div>
@@ -392,14 +392,14 @@ export default function MenuPage() {
                   <div className="bg-red-50 p-4 rounded-xl">
                     <div className="text-center">
                       <div className="text-sm text-gray-600 mb-1">Weekly</div>
-                      <div className="text-lg font-bold text-red-700">₹565</div>
+                      <div className="text-lg font-bold text-red-700">₹606</div>
                     </div>
                   </div>
                   <div className="bg-gradient-to-r from-red-100 to-red-200 p-4 rounded-xl">
                     <div className="text-center">
                       <div className="text-sm text-gray-600 mb-1">Monthly</div>
                       <div className="text-lg font-bold text-red-800">
-                        <span className="line-through text-gray-500">₹2475</span> ₹2415
+                        <span className="line-through text-gray-500">₹2475</span> ₹2455
                       </div>
                     </div>
                   </div>
