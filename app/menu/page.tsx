@@ -455,7 +455,7 @@ export default function MenuPage() {
                   <div className="bg-gradient-to-r from-red-100 to-red-200 p-4 rounded-xl">
                     <div className="text-center">
                       <div className="text-sm text-gray-600 mb-1">Price</div>
-                      <div className="text-lg font-bold text-red-800">₹110</div>
+                      <div className="text-lg font-bold text-red-800">₹115</div>
                     </div>
                   </div>
                   <div className="mt-3">
@@ -509,7 +509,7 @@ export default function MenuPage() {
                   <div className="bg-gradient-to-r from-red-100 to-red-200 p-4 rounded-xl">
                     <div className="text-center">
                       <div className="text-sm text-gray-600 mb-1">Price</div>
-                      <div className="text-lg font-bold text-red-800">₹120</div>
+                      <div className="text-lg font-bold text-red-800">₹125</div>
                     </div>
                   </div>
                   <div className="mt-3">
