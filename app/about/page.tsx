@@ -235,58 +235,68 @@ export default function AboutPage() {
                   </thead>
                   <tbody>
                     <tr>
-                      <td className="border border-gray-300 px-4 py-3">January 1</td>
-                      <td className="border border-gray-300 px-4 py-3">Wednesday</td>
+                      <td className="border border-gray-300 px-4 py-3">Jan-01</td>
+                      <td className="border border-gray-300 px-4 py-3">Thursday</td>
                       <td className="border border-gray-300 px-4 py-3">New Year</td>
                     </tr>
                     <tr className="bg-gray-50">
-                      <td className="border border-gray-300 px-4 py-3">January 14</td>
-                      <td className="border border-gray-300 px-4 py-3">Tuesday</td>
-                      <td className="border border-gray-300 px-4 py-3">Sankranti</td>
+                      <td className="border border-gray-300 px-4 py-3">Jan-26</td>
+                      <td className="border border-gray-300 px-4 py-3">Monday</td>
+                      <td className="border border-gray-300 px-4 py-3">Republic Day</td>
                     </tr>
                     <tr>
-                      <td className="border border-gray-300 px-4 py-3">March 14</td>
-                      <td className="border border-gray-300 px-4 py-3">Friday</td>
+                      <td className="border border-gray-300 px-4 py-3">Mar-03</td>
+                      <td className="border border-gray-300 px-4 py-3">Tuesday</td>
                       <td className="border border-gray-300 px-4 py-3">Holi</td>
                     </tr>
                     <tr className="bg-gray-50">
-                      <td className="border border-gray-300 px-4 py-3">March 31</td>
-                      <td className="border border-gray-300 px-4 py-3">Monday</td>
-                      <td className="border border-gray-300 px-4 py-3">Id-Ul-Fitr</td>
+                      <td className="border border-gray-300 px-4 py-3">Mar-21</td>
+                      <td className="border border-gray-300 px-4 py-3">Saturday</td>
+                      <td className="border border-gray-300 px-4 py-3">Ramzan Id</td>
                     </tr>
                     <tr>
-                      <td className="border border-gray-300 px-4 py-3">April 14</td>
-                      <td className="border border-gray-300 px-4 py-3">Monday</td>
+                      <td className="border border-gray-300 px-4 py-3">Apr-14</td>
+                      <td className="border border-gray-300 px-4 py-3">Tuesday</td>
                       <td className="border border-gray-300 px-4 py-3">Ambedkar Jayanti</td>
                     </tr>
                     <tr className="bg-gray-50">
-                      <td className="border border-gray-300 px-4 py-3">May 12</td>
-                      <td className="border border-gray-300 px-4 py-3">Monday</td>
-                      <td className="border border-gray-300 px-4 py-3">Buddha Purnima</td>
+                      <td className="border border-gray-300 px-4 py-3">May-01</td>
+                      <td className="border border-gray-300 px-4 py-3">Friday</td>
+                      <td className="border border-gray-300 px-4 py-3">Maharashtra Day</td>
                     </tr>
                     <tr>
-                      <td className="border border-gray-300 px-4 py-3">August 9</td>
+                      <td className="border border-gray-300 px-4 py-3">Aug-15</td>
                       <td className="border border-gray-300 px-4 py-3">Saturday</td>
-                      <td className="border border-gray-300 px-4 py-3">Raksha Bandhan</td>
-                    </tr>
-                    <tr className="bg-gray-50">
-                      <td className="border border-gray-300 px-4 py-3">August 15</td>
-                      <td className="border border-gray-300 px-4 py-3">Friday</td>
                       <td className="border border-gray-300 px-4 py-3">Independence Day</td>
                     </tr>
+                    <tr className="bg-gray-50">
+                      <td className="border border-gray-300 px-4 py-3">Aug-28</td>
+                      <td className="border border-gray-300 px-4 py-3">Friday</td>
+                      <td className="border border-gray-300 px-4 py-3">Raksha Bandhan</td>
+                    </tr>
                     <tr>
-                      <td className="border border-gray-300 px-4 py-3">October 2</td>
-                      <td className="border border-gray-300 px-4 py-3">Thursday</td>
-                      <td className="border border-gray-300 px-4 py-3">Gandhi Jayanti</td>
+                      <td className="border border-gray-300 px-4 py-3">Sep-14</td>
+                      <td className="border border-gray-300 px-4 py-3">Monday</td>
+                      <td className="border border-gray-300 px-4 py-3">Ganesh Chaturthi</td>
                     </tr>
                     <tr className="bg-gray-50">
-                      <td className="border border-gray-300 px-4 py-3">October 20</td>
-                      <td className="border border-gray-300 px-4 py-3">Monday</td>
-                      <td className="border border-gray-300 px-4 py-3">Diwali</td>
+                      <td className="border border-gray-300 px-4 py-3">Oct-02</td>
+                      <td className="border border-gray-300 px-4 py-3">Friday</td>
+                      <td className="border border-gray-300 px-4 py-3">Gandhi Jayanti</td>
+                    </tr>
+                    <tr>
+                      <td className="border border-gray-300 px-4 py-3">Oct-20</td>
+                      <td className="border border-gray-300 px-4 py-3">Tuesday</td>
+                      <td className="border border-gray-300 px-4 py-3">Dassera</td>
+                    </tr>
+                    <tr className="bg-gray-50">
+                      <td className="border border-gray-300 px-4 py-3">Nov-07</td>
+                      <td className="border border-gray-300 px-4 py-3">Saturday</td>
+                      <td className="border border-gray-300 px-4 py-3">Choti Diwali</td>
                     </tr>
                     <tr>
                       <td className="border border-gray-300 px-4 py-3">Dec-25</td>
-                      <td className="border border-gray-300 px-4 py-3">Thursday</td>
+                      <td className="border border-gray-300 px-4 py-3">Friday</td>
                       <td className="border border-gray-300 px-4 py-3">Christmas</td>
                     </tr>
                   </tbody>
