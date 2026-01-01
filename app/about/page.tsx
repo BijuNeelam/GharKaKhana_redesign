@@ -240,14 +240,14 @@ export default function AboutPage() {
                       <td className="border border-gray-300 px-4 py-3">New Year</td>
                     </tr>
                     <tr className="bg-gray-50">
+                      <td className="border border-gray-300 px-4 py-3">Jan-14</td>
+                      <td className="border border-gray-300 px-4 py-3">Wednesday</td>
+                      <td className="border border-gray-300 px-4 py-3">Sankranti</td>
+                    </tr>
+                    <tr>
                       <td className="border border-gray-300 px-4 py-3">Jan-26</td>
                       <td className="border border-gray-300 px-4 py-3">Monday</td>
                       <td className="border border-gray-300 px-4 py-3">Republic Day</td>
-                    </tr>
-                    <tr>
-                      <td className="border border-gray-300 px-4 py-3">Mar-03</td>
-                      <td className="border border-gray-300 px-4 py-3">Tuesday</td>
-                      <td className="border border-gray-300 px-4 py-3">Holi</td>
                     </tr>
                     <tr className="bg-gray-50">
                       <td className="border border-gray-300 px-4 py-3">Mar-21</td>
@@ -290,11 +290,6 @@ export default function AboutPage() {
                       <td className="border border-gray-300 px-4 py-3">Dassera</td>
                     </tr>
                     <tr className="bg-gray-50">
-                      <td className="border border-gray-300 px-4 py-3">Nov-07</td>
-                      <td className="border border-gray-300 px-4 py-3">Saturday</td>
-                      <td className="border border-gray-300 px-4 py-3">Choti Diwali</td>
-                    </tr>
-                    <tr>
                       <td className="border border-gray-300 px-4 py-3">Dec-25</td>
                       <td className="border border-gray-300 px-4 py-3">Friday</td>
                       <td className="border border-gray-300 px-4 py-3">Christmas</td>
