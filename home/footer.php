@@ -9,6 +9,7 @@
             <div class="footer-section">
                 <h3>Contact Info</h3>
                 <p>📞 Phone: <a href="tel:<?php echo esc_attr(get_theme_mod('phone_number', '8108325444')); ?>"><?php echo esc_html(get_theme_mod('phone_number', '8108 325 444')); ?></a></p>
+                <p>✉ Email: <a href="mailto:gkkgharkakhana@gmail.com">gkkgharkakhana@gmail.com</a></p>
                 <p>📍 Delivery: <?php echo esc_html(get_theme_mod('delivery_areas', 'CBD Belapur Sectors 11-15, 19-23, and 29-31')); ?></p>
                 <p>⏰ Hours: <?php echo esc_html(get_theme_mod('business_hours', 'Daily: 11:00 AM - 9:00 PM')); ?></p>
             </div>

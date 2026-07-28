@@ -168,6 +168,20 @@ export default function ContactPage() {
 
                   <div className="flex items-start space-x-4">
                     <div className="bg-orange-100 p-3 rounded-full">
+                      <Mail className="h-6 w-6 text-orange-600" />
+                    </div>
+                    <div>
+                      <h3 className="font-semibold text-gray-900 mb-1">Email</h3>
+                      <p className="text-gray-600">
+                        <a href="mailto:gkkgharkakhana@gmail.com" className="hover:text-orange-600 transition-colors">
+                          gkkgharkakhana@gmail.com
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start space-x-4">
+                    <div className="bg-orange-100 p-3 rounded-full">
                       <Clock className="h-6 w-6 text-orange-600" />
                     </div>
                     <div>
@@ -325,6 +339,12 @@ export default function ContactPage() {
                 <div className="flex items-center space-x-3">
                   <Phone className="h-5 w-5 text-orange-400" />
                   <span className="text-lg font-semibold">+91 81083 25444</span>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <Mail className="h-5 w-5 text-orange-400" />
+                  <a href="mailto:gkkgharkakhana@gmail.com" className="text-gray-300 hover:text-orange-400 transition-colors">
+                    gkkgharkakhana@gmail.com
+                  </a>
                 </div>
                 <div className="flex items-center space-x-3">
                   <MapPin className="h-5 w-5 text-orange-400" />

@@ -268,8 +268,8 @@ export function PaymentStatusComponent({
             </p>
             <p className="mt-1">
               or email us at{' '}
-              <a href="mailto:support@gharkakhana.life" className="text-orange-600 hover:underline">
-                support@gharkakhana.life
+              <a href="mailto:gkkgharkakhana@gmail.com" className="text-orange-600 hover:underline">
+                gkkgharkakhana@gmail.com
               </a>
             </p>
           </div>

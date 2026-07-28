@@ -12,9 +12,9 @@ export const MENU_PLANS: MenuPlan[] = [
     type: 'veg',
     category: 'normal',
     description: 'Complete vegetarian meal with chapati, rice, bhaji, dal/kadi, and salad',
-    pricePerMeal: 79,
-    weeklyPrice: 474,
-    monthlyPrice: 1925,
+    pricePerMeal: 85,
+    weeklyPrice: 510,
+    monthlyPrice: 2075,
     features: [
       'Chapathis',
       'Rice',
@@ -31,9 +31,9 @@ export const MENU_PLANS: MenuPlan[] = [
     type: 'veg',
     category: 'special',
     description: 'Premium vegetarian meal with additional dessert, sweets, or double salad',
-    pricePerMeal: 89,
-    weeklyPrice: 534,
-    monthlyPrice: 2175,
+    pricePerMeal: 99,
+    weeklyPrice: 594,
+    monthlyPrice: 2400,
     features: [
       'Chapathis (May be combined)',
       'Rice',
@@ -54,8 +54,8 @@ export const MENU_PLANS: MenuPlan[] = [
     description: 'Mixed meal plan with 2 days chicken (Wed & Fri) and 4 days vegetarian',
     pricePerMeal: 84,
     // Updated as per latest pricing sheet
-    weeklyPrice: 546,
-    monthlyPrice: 2205,
+    weeklyPrice: 590,
+    monthlyPrice: 2400,
     features: [
       'Chapathi',
       'Rice',
@@ -74,8 +74,8 @@ export const MENU_PLANS: MenuPlan[] = [
     description: 'Premium mixed meal plan with additional dessert and compliments',
     pricePerMeal: 94,
     // Updated as per latest pricing sheet
-    weeklyPrice: 606,
-    monthlyPrice: 2455,
+    weeklyPrice: 676,
+    monthlyPrice: 2728,
     features: [
       'Chapathi',
       'Rice',
@@ -94,7 +94,7 @@ export const MENU_PLANS: MenuPlan[] = [
     type: 'non-veg',
     category: 'normal',
     description: 'Non-vegetarian meal with chicken curry, chapati, rice, and salad',
-    pricePerMeal: 115,
+    pricePerMeal: 125,
     weeklyPrice: 690,
     monthlyPrice: 2875,
     features: [
@@ -112,7 +112,7 @@ export const MENU_PLANS: MenuPlan[] = [
     type: 'non-veg',
     category: 'special',
     description: 'Premium non-vegetarian meal with additional dessert and compliments',
-    pricePerMeal: 125,
+    pricePerMeal: 140,
     weeklyPrice: 750,
     monthlyPrice: 3125,
     features: [

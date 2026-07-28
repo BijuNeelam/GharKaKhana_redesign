@@ -143,6 +143,11 @@
                     </div>
                     
                     <div class="contact-item">
+                        <h3 style="color: #e67e22; margin-bottom: 0.5rem;">✉ Email</h3>
+                        <p><a href="mailto:gkkgharkakhana@gmail.com" style="color: #333; text-decoration: none;">gkkgharkakhana@gmail.com</a></p>
+                    </div>
+                    
+                    <div class="contact-item">
                         <h3 style="color: #e67e22; margin-bottom: 0.5rem;">📍 Delivery Area</h3>
                         <p>CBD Belapur Sectors 11-15, 19-23, and 29-31</p>
                     </div>

@@ -2,7 +2,7 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Phone, Clock, MapPin, Heart, Shield, Truck, CheckCircle, Star, Menu, X } from "lucide-react"
+import { Phone, Clock, MapPin, Heart, Shield, Truck, CheckCircle, Star, Menu, X, Mail } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 import { useState } from "react"
@@ -145,7 +145,7 @@ export default function HomePage() {
                   <div className="flex-1 text-center">
                     <div className="text-sm font-semibold mb-2 opacity-90">🌟 TASTE OF HOME</div>
                     <div className="text-3xl lg:text-4xl font-bold mb-2">Your First Meal for just</div>
-                    <div className="text-5xl lg:text-6xl font-black text-yellow-300 mb-2">₹79!</div>
+                    <div className="text-5xl lg:text-6xl font-black text-yellow-300 mb-2">₹85!</div>
                     <div className="text-sm opacity-90">Grab this offer as soon as possible</div>
                   </div>
                   
@@ -388,6 +388,12 @@ export default function HomePage() {
                 <div className="flex items-center space-x-3">
                   <Phone className="h-5 w-5 text-orange-400" />
                   <span className="text-lg font-semibold">+91 81083 25444</span>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <Mail className="h-5 w-5 text-orange-400" />
+                  <a href="mailto:gkkgharkakhana@gmail.com" className="text-gray-300 hover:text-orange-400 transition-colors">
+                    gkkgharkakhana@gmail.com
+                  </a>
                 </div>
                 <div className="flex items-center space-x-3">
                   <MapPin className="h-5 w-5 text-orange-400" />

@@ -91,11 +91,11 @@ function PaymentFailureContent() {
                 <span>+91 81083 25444</span>
               </a>
               <a 
-                href="mailto:support@gharkakhana.life" 
+                href="mailto:gkkgharkakhana@gmail.com" 
                 className="flex items-center space-x-2 text-orange-600 hover:text-orange-700"
               >
                 <span className="h-4 w-4">✉</span>
-                <span>support@gharkakhana.life</span>
+                <span>gkkgharkakhana@gmail.com</span>
               </a>
             </div>
           </div>

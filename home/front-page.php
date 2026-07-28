@@ -170,6 +170,11 @@ get_header(); ?>
                     </div>
                     
                     <div class="contact-item" style="background: #f8f9fa; padding: 2rem; border-radius: 15px;">
+                        <h3 style="color: #e67e22; margin-bottom: 1rem;">✉ Email</h3>
+                        <p style="font-size: 1.1rem;"><a href="mailto:gkkgharkakhana@gmail.com" style="color: #333; text-decoration: none; font-weight: 600;">gkkgharkakhana@gmail.com</a></p>
+                    </div>
+                    
+                    <div class="contact-item" style="background: #f8f9fa; padding: 2rem; border-radius: 15px;">
                         <h3 style="color: #e67e22; margin-bottom: 1rem;">📍 Delivery Area</h3>
                         <p><?php echo esc_html(get_theme_mod('delivery_areas', 'CBD Belapur Sectors 11-15, 19-23, and 29-31')); ?></p>
                     </div>
